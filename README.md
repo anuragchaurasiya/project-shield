@@ -72,7 +72,9 @@ project-shield/
 │   ├── PRIVACY_AND_SECURITY.md
 │   ├── API_OVERVIEW.md
 │   ├── TEST_PLAN.md
-│   └── ROADMAP.md
+│   ├── ROADMAP.md
+│   ├── FLOWCHART.md
+│   └── USER_GUIDE.md
 ├── android-app/       # planned Android source
 ├── backend/           # planned Firebase or Spring Boot implementation
 ├── ai-analysis/       # optional analysis prototype
@@ -92,6 +94,12 @@ project-shield/
 ## Limitations
 Android background execution and permissions vary by OS version and manufacturer. A device may be offline, powered off, damaged, or unable to provide a fresh update. Always show when data was last updated; never imply stale data is live. The app cannot guarantee theft detection, remote control, or recovery. Use official provider recovery services for supported device-finding actions.
 
+## Flowchart
+See [docs/FLOWCHART.md](docs/FLOWCHART.md) for the application workflow, system architecture flowchart, and key decision rules. GitHub renders the Mermaid diagrams directly.
+
+## How to Work on This Project
+See [docs/USER_GUIDE.md](docs/USER_GUIDE.md) for the complete step-by-step user journey, student team development phases, suggested demo sequence, and feature completion checklist.
+
 ## Development Roadmap
 See [docs/ROADMAP.md](docs/ROADMAP.md). The first milestone is authentication, device registration, consent controls, and an owner dashboard. Event analysis and optional location follow after security tests.
 
@@ -102,6 +110,8 @@ See [docs/ROADMAP.md](docs/ROADMAP.md). The first milestone is authentication, d
 - [Proposed API](docs/API_OVERVIEW.md)
 - [Test Plan](docs/TEST_PLAN.md)
 - [Development Roadmap](docs/ROADMAP.md)
+- [Project Flowcharts](docs/FLOWCHART.md)
+- [How to Work on the Project](docs/USER_GUIDE.md)
 
 ## Project Status
 **Planning / documentation baseline.** Update this section as features are implemented and tested. Documentation does not mean the application or backend is already working.
