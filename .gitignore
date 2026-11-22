@@ -1,0 +1,27 @@
+# Android / Gradle
+.gradle/
+build/
+**/build/
+local.properties
+*.jks
+*.keystore
+
+# Java
+*.class
+target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+service-account*.json
+google-services.json
+
+# OS
+.DS_Store
+Thumbs.db
